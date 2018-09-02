@@ -1,0 +1,23 @@
+{
+  "name": "thought-example-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Frees",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "aperture": "github:xanister/aperture",
+    "biosphere": "github:xanister/biosphere",
+    "carriage": "github:xanister/carriage"
+  }
+}
